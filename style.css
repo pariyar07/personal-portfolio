@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 
 :root {
     --main-white: #f0f0f0;
@@ -45,7 +45,7 @@ html {
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.4;
@@ -54,7 +54,6 @@ body {
 
 h1,
 h2 {
-    font-family: sans-serif;
     font-weight: 700;
     text-align: center;
 }
@@ -192,7 +191,7 @@ a {
 }
 
 .project:hover .code {
-    color: #ff7f50;
+    color: #16e0bd;
 }
 
 .project-image {
@@ -222,7 +221,58 @@ a {
 }
 
 .source:hover{
-    color: var(--main-red);
+    color: #16e0bd;
+}
+
+/* blogs */
+
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 30.625em) {
+    .blogs-section {
+        padding: 6rem 1rem;
+    }
+
+    .blogs-grid {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+#blogs {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+
+.blogs:hover {
+    color: #16e0bd;
+}
+
+.blogs-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs-title {
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
 }
 
 /* contact */
@@ -250,6 +300,12 @@ a {
 	flex-direction: column;
 	box-shadow: 0px 0px 18px 0 #0000002c;
 	transition: .3s ease box-shadow;
+}
+
+#info-list:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 /* footer */
