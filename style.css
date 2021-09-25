@@ -236,6 +236,12 @@ a {
     margin-bottom: 6rem;
 }
 
+.blogs-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
 @media (max-width: 30.625em) {
     .blogs-section {
         padding: 6rem 1rem;

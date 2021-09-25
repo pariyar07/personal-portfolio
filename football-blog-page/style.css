@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+.blog-photo{
+    width: 45%;
+    display: flex;
+    margin: auto;
+    border-radius: 10px
+}
+
+.hero{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+p{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+}
