@@ -147,6 +147,7 @@ a {
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    padding-bottom: 4rem;
 }
 
 #image{
