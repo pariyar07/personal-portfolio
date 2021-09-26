@@ -261,7 +261,6 @@ a {
 @media (max-width: 30.625em) {
     .blogs-grid {
         grid-template-columns: 1fr;
-
     }
 }
 
@@ -271,7 +270,17 @@ a {
     padding: 10rem 2rem;
 }
 
-.blogs:hover {
+.blogs-button {
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.blogs-button:hover {
     color: #16e0bd;
 }
 
@@ -279,12 +288,6 @@ a {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-}
-
-.blogs-title {
-    font-size: 2rem;
-    padding: 0.5rem 0.5rem;
-    text-align: center;
 }
 
 .btn {
