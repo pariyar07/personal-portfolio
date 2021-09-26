@@ -2,7 +2,7 @@
 
 :root {
     --main-white: #f0f0f0;
-    --main-red: #be3144;
+    --main-red: #C40233;
     --main-blue: #45567d;
     --main-gray: #303841;
 }
@@ -258,10 +258,6 @@ a {
 }
 
 @media (max-width: 30.625em) {
-    .blogs-section {
-        padding: 6rem 1rem;
-    }
-
     .blogs-grid {
         grid-template-columns: 1fr;
 
@@ -271,7 +267,7 @@ a {
 #blogs {
     background: var(--main-gray);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    padding: 2rem;
+    padding: 10rem 2rem;
 }
 
 .blogs:hover {
@@ -299,7 +295,7 @@ a {
 /* contact */
 #contact{
     background-color: var(--main-red);
-    padding: 2rem;
+    padding: 10rem 2rem 1rem 2rem;
     text-align: center;
 }
 
@@ -335,7 +331,7 @@ a {
     background-color: var(--main-gray);
     color: #f0f0f0;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .social-links{
