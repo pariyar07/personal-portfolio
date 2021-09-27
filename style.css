@@ -110,7 +110,7 @@ a {
 #hero-heading{
     font-size: 72px;
     background: linear-gradient(
-        130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 2rem;
