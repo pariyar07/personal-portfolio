@@ -12,37 +12,11 @@
     padding: 0;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 60%;
     scroll-behavior: smooth;
 }
-
-@media (max-width: 70em) {
-    html {
-    font-size: 50%;
-    }
-}
-
-
-@media (max-width: 60em) {
-    html {
-        font-size: 60%;
-    }
-}
-
-@media (max-width: 30em) {
-    html {
-        font-size: 50%;
-    }
-}
-
 
 body {
     font-family: 'Noto Serif', serif;
@@ -63,7 +37,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4.2rem;
+    font-size: 4.5rem;
 }
 
 ul {
@@ -75,6 +49,7 @@ a {
     color: var(--main-white);
 }
 
+/* nav bar */
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -109,9 +84,11 @@ a {
 }
 
 .nav-list a:hover {
-    background: var(--main-blue);
+    background: #1b1b1b;
+    color: red;
 }
 
+/* welcome */
 .welcome-section {
     display: flex;
     flex-direction: column;
@@ -136,6 +113,7 @@ a {
         130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 2rem;
 }
 
 #hero-para{
@@ -157,6 +135,7 @@ a {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
+/* projects */
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -241,7 +220,6 @@ a {
 }
 
 /* blogs */
-
 .blogs-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -330,7 +308,6 @@ a {
 }
 
 /* footer */
-
 #footer{
     background-color: var(--main-gray);
     color: #f0f0f0;
@@ -341,10 +318,17 @@ a {
 .social-links{
     margin: auto;
     padding: 1rem;
-
 }
 
 .list-item-inline {
     display: inline-block;
     font-size: 2rem;
-    }
+}
+
+.list-item-inline:hover{
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    opacity: 0.5;
+}
