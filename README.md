@@ -1,2 +1,2 @@
 # personal-portfolio
- My official developer portfolio.
+ My official personal website.
