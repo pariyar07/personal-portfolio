@@ -67,7 +67,7 @@ a {
     margin-right: 2rem;
 }
 
-/* @media (max-width: 28.75em) {
+@media (max-width: 28.75em) {
     .nav {
         justify-content: center;
     }
@@ -75,11 +75,10 @@ a {
     .nav-list {
         margin: 0 1rem;
     }
-} */
+}
 
 .nav-list a {
     display: block;
-    font-size: 3vw;
     padding: 2rem;
 }
 
