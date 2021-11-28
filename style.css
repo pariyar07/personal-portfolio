@@ -67,7 +67,7 @@ a {
     margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
+/* @media (max-width: 28.75em) {
     .nav {
         justify-content: center;
     }
@@ -75,11 +75,11 @@ a {
     .nav-list {
         margin: 0 1rem;
     }
-}
+} */
 
 .nav-list a {
     display: block;
-    font-size: 2.2rem;
+    font-size: 3vw;
     padding: 2rem;
 }
 
@@ -128,8 +128,7 @@ a {
 }
 
 #image {
-    height: 35rem;
-    width: 35rem;
+    height: 25vw;
     border-radius: 500px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
